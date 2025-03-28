@@ -1,0 +1,63 @@
+1)
+a=10
+b=3
+print("sum:",a+b)
+print("sub:",a-b)
+print("mul:",a*b)
+print("div:",a/b)
+print("mod:",a%b)
+
+
+2)
+a=int(input("enter first number"))
+b=int(input("enter second number"))
+print("add:",a+b)
+print("sub:",a-b)
+print("mul:",a*b)
+
+
+3)
+a=10
+b=20
+print(a>b)
+print(a<b)
+print(a>=b)
+print(a<=b)
+print(a==b)
+print(b<a)
+print(b>a)
+print(b>=a)
+
+
+4)
+a=10
+b=20
+temp=a
+a=b
+b=temp
+print(a)
+print(b)
+
+
+5)
+height=float(input("enter the height of triangle"))
+breadth=float(input("enter the breadth of triangle"))
+area=0.5*height*breadth
+print(area)
+
+
+6)
+l=20
+b=10
+area=l*b
+perimeter=(2*l)+(2*b)
+print(area)
+print(perimeter)
+
+
+
+7)
+d=int(input("enter diameter of a circle"))
+radius=d/2
+print("the radius of circle with diameter",d,'is',radius)
+
